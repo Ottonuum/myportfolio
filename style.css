@@ -1,3 +1,28 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+
+    .navi {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    ul li {
+        list-style-type: none;
+        text-decoration:none;
+    
+    }
+    
+    .nav a {
+        text-decoration: none;
+        color:black;
+    
+    }
+
     
 }
