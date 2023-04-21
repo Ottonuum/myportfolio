@@ -1,15 +1,46 @@
+.burger-icon {
+    display: none;
+    cursor: pointer;
+}
+  
+.burger-icon span {
+    display: block;
+    width: 40px;
+    height: 7px;
+    margin-bottom: 4px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
 
-    .navi {
-        display: flex;
-        align-items: center;
-
+    header {
+        width: 375px;
+        height: 73px;
+        background-color: wheat;
     }
 
-    .buttons {
+
+    .nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
+    }
+
+    .buttons {
+        display: none;
+        z-index: 1;
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
     }
 
     ul li {
@@ -21,8 +52,20 @@
     .nav a {
         text-decoration: none;
         color:black;
+
     
     }
 
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
     
+    .burger-icon {
+        display: block;
+        align-self: flex-end;
+        padding: 10px;
+    }
+
+
 }

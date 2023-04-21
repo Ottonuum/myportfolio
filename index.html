@@ -10,6 +10,7 @@
 <body>
     <header>
         <div class="nav">
+            <a href="">Otto Nuum</a>
             <ul class="buttons">
                 <li>
                     <a href="">Home</a>
@@ -24,7 +25,20 @@
                     <a href="">contact</a>
                 </li>
             </ul>
+            <div class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
         </div>
     </header>
 </body>
+<script>
+    const burgerIcon = document.querySelector('.burger-icon');
+    const headerButtons = document.querySelector('.buttons');
+
+    burgerIcon.addEventListener('click', () => {
+        headerButtons.style.display = headerButtons.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
 </html>
