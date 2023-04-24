@@ -1,9 +1,9 @@
-.burger-icon {
+#hamburger-icon {
     display: none;
     cursor: pointer;
 }
   
-.burger-icon span {
+#hamburger-icon div {
     display: block;
     width: 40px;
     height: 7px;
@@ -17,7 +17,7 @@
 
     header {
         width: 375px;
-        height: 73px;
+        height: 60px;
         background-color: wheat;
     }
 
@@ -35,12 +35,12 @@
         z-index: 1;
         display: none;
         position: absolute;
-        top: 73px;
+        top: 60px;
         left: 0;
         right: 0;
         z-index: 1;
         background-color: blue;
-        padding: 10px;
+        padding: px;
         text-align: right;
         font-size: 20px;
     }
@@ -48,6 +48,8 @@
     ul li {
         list-style-type: none;
         text-decoration:none;
+        border-top: 1px solid black;
+        padding: 10px;
     
     }
     
@@ -64,7 +66,7 @@
         margin: 0px;
     }
     
-    .burger-icon {
+    #hamburger-icon {
         display: block;
         align-self: flex-end;
         padding: 10px;
@@ -74,5 +76,6 @@
         padding:15px;
         gap:10px;
     }
+
 
 }

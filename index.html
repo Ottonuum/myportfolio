@@ -25,20 +25,21 @@
                     <a href="">Contact</a>
                 </li>
             </ul>
-            <div class="burger-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-                </div>
+            <div id="hamburger-icon" class="ham">
+                <div class="top"></div>
+                <div class="middle"></div>
+                <div class="bottom"></div>
+            </div>
         </div>
     </header>
 </body>
 <script>
-    const burgerIcon = document.querySelector('.burger-icon');
+    const burgerIcon = document.querySelector('#hamburger-icon');
     const headerButtons = document.querySelector('.buttons');
 
     burgerIcon.addEventListener('click', () => {
         headerButtons.style.display = headerButtons.style.display === 'block' ? 'none' : 'block';
     });
 </script>
+<script src="java.js"></script>
 </html>
