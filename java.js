@@ -43,9 +43,9 @@ function changeIcon(state) {
         });
       });
     }
-}
-var button = document.getElementById("hamburger-icon")
-button.onclick = function() {
+  }
+  
+  $(document).on('click', '#hamburger-icon', function() {
     if ($(this).hasClass("noham")) {
       $(this).removeClass().addClass("ham");
       changeIcon("ham");
@@ -53,4 +53,5 @@ button.onclick = function() {
       $(this).removeClass().addClass("noham");
       changeIcon("noham");
     }
-};
+  });
+  
