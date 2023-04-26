@@ -77,5 +77,10 @@
         gap:10px;
     }
 
+    .title1 { 
+        padding-top: 50px;
+        text-align: center;
+        font-size: 3.5rem;
+    }
 
 }
