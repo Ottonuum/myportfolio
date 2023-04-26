@@ -78,9 +78,23 @@
     }
 
     .title1 { 
-        padding-top: 50px;
+        padding-top: 40px;
         text-align: center;
         font-size: 3.5rem;
     }
 
+    .text1 {
+        text-align: center;
+        font-size: 18px;
+        padding-top: 40px;
+    }
+
+    .project {
+        font-size: 30px;
+        width: 50%;
+    }
+
+    .project_button {
+        padding-top: 30px;
+    }
 }
