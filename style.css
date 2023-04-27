@@ -7,7 +7,6 @@
 body {
     display: flex;
     flex-direction: column;
-    gap: 50px;
 }
 
 #hamburger-icon {
@@ -36,12 +35,21 @@ body {
 
     .section1 {
         padding-top: 3.2rem;
-        background-color: ;
+        background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg); 
     }
 
     .section2 {
-        background-color: rgb(255, 255, 255);
+        background-color: #fafafa
     }
+
+    .section4 {
+        background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+    }
+
+    .bot_line {
+        border-bottom: black solid 1px;
+    }
+
 
     .nav {
         display: flex;
@@ -60,7 +68,7 @@ body {
         left: 0;
         right: 0;
         z-index: 1;
-        background-color: blue;
+        background-color: white;
         padding: px;
         text-align: right;
         font-size: 20px;
@@ -99,7 +107,7 @@ body {
 
     a {
         text-decoration: none;
-        color: white;
+        color: #111;
     }
 
     .title1 { 
@@ -115,12 +123,18 @@ body {
     }
 
     .project {
-        font-size: 30px;
+        margin: 40px 0px 50px 0px;
+        padding: 10px 20px;
+        font-size: 20px;
         width: 50%;
-    }
-
-    project_button {
-        padding-top: 40px;
+        background-color: #facf0f;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        display: inline-block;
     }
 
     .about_me {
@@ -129,12 +143,23 @@ body {
     }
 
    .contact {
-    font-size: 30px;
+    margin: 40px 0px 50px 0px;
+    padding: 10px 20px;
+    font-size: 20px;
     width: 50%;
+    background-color: #facf0f;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
    }
 
    .contact_button {
     padding-top: 40px;
+
    }
 
    img {
@@ -147,11 +172,6 @@ body {
     padding-top: 40px;
     padding-right: 20px;
     padding-left: 20px;
-   }
-
-   .contact {
-    font-size: 30px;
-    width: 50%;
    }
 
    .foot {
@@ -181,4 +201,9 @@ body {
    .white_a a {
     color: black;
    }
+
+   p {
+    color: #555;
+   }
+   
 }
